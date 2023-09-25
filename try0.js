@@ -1,5 +1,5 @@
-import * as THREE from '../three.module.js'
-import { MapControls } from '../MapControls.js';
+import * as THREE from './three.module.js'
+import { MapControls } from './MapControls.js';
 
 const scene = new THREE.Scene();
 scene.background = new  THREE.TextureLoader().load(
